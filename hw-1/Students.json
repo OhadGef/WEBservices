@@ -1,0 +1,51 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Avi ",
+      "university": "Ben gurion",
+      "year": "1",
+      "average": 81
+    },
+    
+    {
+      "id": 2,
+      "name": "Bono",
+      "university": "Ben gurion",
+      "year": "2",
+      "average": 95
+    },
+    
+    {
+      "id": 3,
+      "name": "Carin",
+      "university": "Shenkar",
+      "year": "3",
+      "average": 76
+    },
+    
+    {
+      "id": 4,
+      "name": "David",
+      "university": "Shenkar",
+      "year": "2",
+      "average": 69
+    },
+    
+    {       
+      "id": 5,
+      "name": "Eldad",
+      "university": "Tel-Aviv",
+      "year": "1",
+      "average": 98
+    },   
+
+    {
+      "id": 6,
+      "name": "Frank",
+      "university": "Tel-Aviv",
+      "year": "2",
+      "average": 100
+    }
+  ]
+}
