@@ -1,5 +1,5 @@
-
-var ws = require('./ws.js');
+'use strict';
+var ws = require('./ws1.js');
 var jsondata = ws();
 
 
@@ -11,7 +11,7 @@ var port = process.env.PORT||3000;
 app.get('/all' , function(req,res) {
 	res.json(jsondata.getAllData());
 	console.log("get in to the json");
-});
+}); 
 
 app.param('id',function(req,res,next,value){
 	console.log("\nRequest id:"+value);
